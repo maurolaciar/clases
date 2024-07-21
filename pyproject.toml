@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "caece"
+version = "0.1.0"
+description = ""
+authors = ["Mauro <laciarmauro@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pandas = "^2.2.2"
+ipykernel = "^6.29.4"
+matplotlib = "^3.9.0"
+scipy = "^1.14.0"
+statsmodels = "^0.14.2"
+google-cloud = "^0.34.0"
+google-cloud-storage = "^2.17.0"
+google-cloud-bigquery = "^3.25.0"
+db-dtypes = "^1.2.0"
+seaborn = "^0.13.2"
+scikit-learn = "^1.5.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
