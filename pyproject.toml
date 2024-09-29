@@ -18,6 +18,8 @@ google-cloud-bigquery = "^3.25.0"
 db-dtypes = "^1.2.0"
 seaborn = "^0.13.2"
 scikit-learn = "^1.5.1"
+scikits-bootstrap = "^1.1.0"
+islp = "^0.4.0"
 
 
 [build-system]

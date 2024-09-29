@@ -1,0 +1,8 @@
+# ignore secrets folder
+secrets/
+
+data/
+
+challenges/
+
+.venv/
