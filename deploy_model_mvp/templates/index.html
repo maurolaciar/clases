@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Predicción tasa depositos a 30 días</title>
+</head>
+<body>
+  
+    <style>
+        h3 {
+            background-color: #d3d3d3; /* Color gris claro */
+            padding: 10px; /* Añade espacio alrededor del texto */
+            text-align: center; /* Centra el texto */
+        }
+    </style>
+</head>
+<body>
+    <h3>Predicción tasa depositos a 30 días</h3>
+
+  
+  
+    <h1>Modelo predictivo de regresión lineal</h1>
+    <form action="/predict" method="post">
+        <label for="tasapm">Tasa política monetaria (*):</label>
+        <input type="number" id="tasapm" name="tasapm" required><input type="submit" value="Predict"><br>
+        <br>
+        <br>
+        <br>
+        <label for="subheader">(*) La tasa de política monetaria debe ser insertada en puntos porcentuales y nominal, por ejemplo 80 representa una tasa del 80% nominal anual</label>
+        
+    </form>
+</body>
+</html>
