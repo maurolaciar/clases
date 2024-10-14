@@ -99,6 +99,8 @@ This directory contains the code and resources for deploying a Machine Learning 
    
    Source IP ranges: `0.0.0.0/0`
 
+   Protocols and ports: Allow all
+
 4. Connect to the VM instance using SSH.
 
 5. Update the package list and install the required packages:
